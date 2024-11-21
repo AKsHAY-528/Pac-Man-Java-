@@ -61,3 +61,29 @@ public class PacMan extends JPanel implements ActionListener, KeyListener {
                 this.velocityY = 0;
             }
         }
+        void reset() {
+            this.x = this.startX;
+            this.y = this.startY;
+        }
+    }
+
+    private int rowCount = 21;
+    private int columnCount = 19;
+    private int tileSize = 32;
+    private int boardWidth = columnCount * tileSize;
+    private int boardHeight = rowCount * tileSize;
+
+    private Image wallImage;
+    private Image blueGhostImage;
+    private Image orangeGhostImage;
+    private Image pinkGhostImage;
+    private Image redGhostImage;
+
+    private Image pacmanUpImage;
+    private Image pacmanDownImage;
+    private Image pacmanLeftImage;
+    private Image pacmanRightImage;
+
+    //X = wall, O = skip, P = pac man, ' ' = food
+    //Ghosts: b = blue, o = orange, p = pink, r = red
+    
