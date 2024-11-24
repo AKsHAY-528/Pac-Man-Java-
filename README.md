@@ -26,5 +26,9 @@ Dependencies:
 Java Development Kit (JDK): Version 8 or higher.
 Swing: Pre-included with JDK for GUI.
 
+Project Structure:
+PacMan Class: Main class implementing the game logic, rendering, and controls.
+Block Class: Represents each game entity (walls, ghosts, Pac-Man, and food).
+Assets Folder: Contains image resources for Pac-Man, ghosts, and walls.
 
 
