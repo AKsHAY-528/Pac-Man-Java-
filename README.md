@@ -16,7 +16,6 @@ Restart the game when lives run out.
 Dynamic Map Reloading: 
 The maze reloads with new food after clearing all food items.
 
-
 Controls:
 Arrow Keys: Move Pac-Man in the desired direction.
 Restart Game: Press any key after the game over to restart.
