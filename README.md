@@ -21,6 +21,7 @@ Arrow Keys: Move Pac-Man in the desired direction.
 Restart Game: Press any key after the game over to restart.
 
 
+
 Dependencies:
 Java Development Kit (JDK): Version 8 or higher.
 Swing: Pre-included with JDK for GUI.
